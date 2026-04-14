@@ -109,3 +109,25 @@ if (p_value < alpha):
     print("There is a statistically meaningful correlation between gold and oil prices.")
 
 # I reach the p value is less then 0.00001 and conclude that there is a strong correlation between gold and oil prices. 
+
+# Same proccess to inspect the correlation between gold prices and GPR index
+spearman, p_value = stats.spearmanr(df_final['Gold_Price'], df_final['GPRD'])
+
+
+if (p_value < alpha):
+    print(f"p value: {p_value:.10e}")
+    print("p value is smaller than alpha, Null Hypothesis H0 is rejected.")
+    print("There is a statistically meaningful correlation between gold prices and GPR index.")
+
+
+# Same proccess to inspect the correlation between oil prices and GPR index
+
+spearman, p_value = stats.spearmanr(df_final['Oil_Price'], df_final['GPRD'])
+
+if (p_value < alpha):
+    print(f"p value: {p_value:.10e}")
+    print("p value is smaller than alpha, Null Hypothesis H0 is rejected.")
+    print("There is a statistically meaningful correlation between oil prices and GPR index.")
+
+
+# p value for correlation between such commodities and GPR index resulted in that "Gold and Oil prices meaningfully correlated with GPR index."
