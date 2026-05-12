@@ -1,4 +1,4 @@
-Date,Price_x,Open_x,High_x,Low_x,Vol._x,Change %_x,Price_y,Open_y,High_y,Low_y,Vol._y,Change %_y,DAY,N10D,GPRD,GPRD_ACT,GPRD_THREAT,GPRD_MA30,GPRD_MA7,event,var_name,var_label
+Date,Gold_Price,Open_x,High_x,Low_x,Vol._x,Change %_x,Oil_Price,Open_y,High_y,Low_y,Vol._y,Change %_y,DAY,N10D,GPRD,GPRD_ACT,GPRD_THREAT,GPRD_MA30,GPRD_MA7,event,var_name,var_label
 2026-04-13,"4,734.30","4,693.65","4,766.62","4,686.80",89.06K,0.87%,101.88,103.06,103.49,98.86,265.97K,-1.19%,20260413,294,304.22,494.23,393.5,292.76,292.47,,,
 2026-04-12,"4,693.30","4,709.50","4,713.65","4,626.00",,-1.97%,103.11,102.5,103.88,101.67,40.43K,8.31%,20260412,312,169.88,211.69,176.57,292.98,289.74,,,
 2026-04-10,"4,787.40","4,790.50","4,820.00","4,752.70",121.57K,-0.64%,95.2,96.6,98.26,94.2,345.21K,-0.75%,20260410,533,329.39,359.36,289.4,299.14,285.01,,,
